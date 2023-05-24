@@ -10,6 +10,9 @@
     margin-left: 0;
   }
 
+  .mainVB>video{
+    height: 80%;
+  }
 
   .mv1{display: none;}
   .mv2{display: none;}
@@ -99,13 +102,13 @@
   }
   .font>h2{
     margin-left: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 200;
     margin-bottom: -20px;
   }
   .font>h3{
     margin-left: 0px;
-    font-size: 100px;
+    font-size: 60px;
     color: #0b8c2700; /* 배경에 맞춰서 색상바꾸기  */
   }
   .font>h3>b{
@@ -119,7 +122,7 @@
   /* section1 */
   .flatDesign{
     width: 100%;
-    margin-top: 100px;
+    margin-top: -50px;
   }
   .flatDesign>div{
     margin-left: 0px;
@@ -130,6 +133,26 @@
     justify-content: center;
     align-items: center;
   }
+  .flat1>h3>img{
+    width: 200px;
+    height: 400px;
+    max-width: 100%;
+  }
+  .flatTop p{
+    width: 330px;
+    height: auto;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+  
+  }
+  .flatTop p>b{
+    font-size: 20px;
+    font-weight: bold;
+    color: #98cb4c;
+  }
+
   .flatTop>h1{
     font-size: 50px;
     margin-bottom: 20px;
@@ -242,13 +265,23 @@
     margin-left: 0px;
     background-color: #fff;
   }
+
+
   .p2 h1{
-    margin-right: 0;
+    font-family: 'Life Savers', cursive;
+    font-size: 50px;
+    color: #fff;
+    margin-right: 0px; /*  */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #222;
   }
 
   
   .organic{
+    margin-top: 50px;
     width: 100%;
+    height: 700px;
   }
   .oFont{
     width: 100%;
@@ -260,12 +293,12 @@
     letter-spacing: 10px;
   }
   .oFont>h1{
-    top: 50px; 
+    top: 20px; 
     left: 50%;
     transform: translateX(-50%);
   }
   .oFont>h2{
-    top: 150px;
+    top: 120px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -291,27 +324,27 @@
   
 .oimg{
   width: 100vw;
-  height: 1000px;
+  height: 700px;
   position: relative;
   border: 1px solid #000;
 }
 .oimg>img{
-  height: 320px;
+  height: 200px;
   position: absolute;
-  top: 280px;
-  left: 10%;
+  top: 250px;
+  left: 9%;
 }
 .oimg>img:nth-child(2){
-  top: 280px;
-  left: 55%;
+  top: 250px;
+  left: 53%;
 }
 .oimg>img:nth-child(3){
-  top: 630px;
-  left: 10%;
+  top: 490px;
+  left: 9%;
 }
 .oimg>img:nth-child(4){
-  top: 630px;
-  left: 55%;
+  top: 490px;
+  left: 53%;
 }
 
 }
