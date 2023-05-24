@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Nosifer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-#wrap{
-  width: 100vw;
-  height: 100vh;
-}
+/* #wrap{
+  width: 100%;
+  height: 100%;
+} */
 
 .glass{
   position: fixed;
@@ -76,17 +76,18 @@ article:nth-child(1){
   position: relative;
 }
 .mainVB>video{
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  max-width: 100%;
   object-fit: fill;
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
 }
-.mainVB>video.active{
-  display: block;
-}
+.mv1{display: block;}
+.mv2{display: none;}
+.mv3{display: none;}
+
 
 .font{
   width: 100%;

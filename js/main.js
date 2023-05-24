@@ -1,21 +1,23 @@
 $(document).ready(function(){
 
-  $(window).on('resize', function(){
+//   $(window).on('resize', function(){
 
-    if (window.innerWidth <= 1024) {
-      $(".mv2").addClass("active")
-      $(".mv1").removeClass("active")
-      $(".mv3").removeClass("active")
-    }
-    if(window.innerWidth <= 767){
-      $(".mv3").addClass("active")
-      $(".mv1").removeClass("active")
-      $(".mv2").removeClass("active")
-    }
-    if(window.innerWidth > 1024){
-      $(".mv1").addClass("active")
-    }
-});
+//     if (window.innerWidth <= 1024) {
+//       $(".mv2").addClass("active")
+//       $(".mv1").removeClass("active")
+//       $(".mv3").removeClass("active")
+//     }
+//     if(window.innerWidth <= 767){
+//       $(".mv3").addClass("active")
+//       $(".mv1").removeClass("active")
+//       $(".mv2").removeClass("active")
+//     }
+//     if(window.innerWidth > 1024){
+//       $(".mv1").addClass("active")
+//       $(".mv3").removeClass("active")
+//       $(".mv2").removeClass("active")
+//     }
+// });
 
 
   $(".trigger").click(function(){
